@@ -103,55 +103,44 @@ h2{
     margin-top: 85px;
 }
 
-.linha/divisória{
-    width: 0.5%;
+.linha-divisória{
+  width: 0.5%;
   background-color:  red;
-
+  height: 100hv;
+  margin-top: 25px;
+  margin-right: 20px;
 }
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .secao-1{
-    width: 100%;
+    width: 66%;
     margin-left: 0;
-    margin-top: 10px;
-    padding: 5px;
+    padding: 15px;
+    height: 100hv;
 }
 
 .secao-2{
-    width: 100%;
-    margin-top:50px ;
-    margin-bottom: 100px;
-}
-
-.secao-3{
-    width: 100%;
-
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-.secao-4{
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-
-img{
-    width: 400px;
-    margin: 0 auto;
-}
-.img img{
-    width: 33%;
-    border-radius: 100%;
-}
-
-.img-col{
-    width: 20%;
-    border-radius: 100%;
-}
-
-h1{
-    text-align: center;
+    width: 40%;
+    margin-left: 0;
     padding: 15px;
+    height: 100hv;
+}
+
+.mySlides{
+ width: 300px;
+ height: 200px;
+ border-radius: 20px;
+ margin: 0 auto;
+}
+
+img2{
+    width: 100%;
+    border-radius: 20px;
 }
 
 h3{
@@ -167,11 +156,9 @@ h3{
     padding: 20px;
 }
 
-button{
-    padding: 20px;
-    margin-left: 40px;
-}
-
-.btn btn-info{
-    size: 50px;
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    
 }
